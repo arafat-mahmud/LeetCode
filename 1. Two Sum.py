@@ -4,7 +4,7 @@ class Solution:
         for i, value in enumerate(nums):
             remain = target - nums[i]
 
-            if remaining in seen:
+            if remain in seen:
                 return [i, seen[remain]]
 
             seen[value] = i
