@@ -1,6 +1,6 @@
 class Solution:
     def numOfArrays(self, n: int, m: int, k: int) -> int:
-        
+
         dp = [[[None] * (k + 1) for _ in range(m + 1)] for _ in range(n + 1)]
         return self.dfs(n, m, k, 0, 0, 0, dp)
 
@@ -22,6 +22,7 @@ class Solution:
                 newCost += 1
             if newCost > k:
                 break
+            
             ans += self.dfs(n, m, k, i + 1, newMax, newCost, dp)
             ans %= 1000000007
 
