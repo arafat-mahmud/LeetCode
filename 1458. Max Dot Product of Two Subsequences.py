@@ -3,6 +3,7 @@ class Solution:
         
     m = len(A)
     n = len(B)
+    
     dp = [[-math.inf] * (n + 1) for _ in range(m + 1)]
 
     for i in range(m):
