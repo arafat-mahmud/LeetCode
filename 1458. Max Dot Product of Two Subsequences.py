@@ -1,6 +1,7 @@
 from ast import List
 import math
 
+# LeetCode 
 
 class Solution:
   def maxDotProduct(self, A: List[int], B: List[int]) -> int:
