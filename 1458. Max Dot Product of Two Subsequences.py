@@ -1,5 +1,6 @@
 class Solution:
   def maxDotProduct(self, A: List[int], B: List[int]) -> int:
+        
     m = len(A)
     n = len(B)
     dp = [[-math.inf] * (n + 1) for _ in range(m + 1)]
