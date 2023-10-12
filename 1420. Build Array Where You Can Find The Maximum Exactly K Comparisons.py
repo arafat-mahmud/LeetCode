@@ -28,8 +28,3 @@ class Solution:
 
         dp[i][curMax][curCost] = ans
         return ans
-    
-    
-
-
-    
