@@ -12,4 +12,3 @@ class Solution:
             number //= 10
             
         return x == reverse
-
