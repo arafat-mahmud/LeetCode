@@ -18,6 +18,8 @@ class Solution:
 
         max(0, dp[i][j]) + A[i] * B[j])
 
+        
+
     return dp[m][n]
   
 
