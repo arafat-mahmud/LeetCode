@@ -1,5 +1,6 @@
 class Solution:
     def minCostClimbingStairs(self, cost):
+        
         n = len(cost)
 
         for i in range(2, n):
