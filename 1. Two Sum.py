@@ -7,4 +7,3 @@ class Solution:
            if remain in seen:
                return [i, seen[remain]]
            seen[value] = i
-
