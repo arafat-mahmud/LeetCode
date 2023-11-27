@@ -37,5 +37,3 @@ class Solution:
                 cur1 = cur1.next
         
         return h
-
-
